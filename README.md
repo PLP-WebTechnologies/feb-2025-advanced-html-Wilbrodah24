@@ -26,3 +26,165 @@ Apply multimedia elements such as audio and video.
 - Ensure semantic correctness.
 
 Happy Coding! 💻✨
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML5 Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Sample HTML5 Page</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Ordered List with Roman Numerals -->
+        <section>
+            <h2>Ordered List</h2>
+            <ol type="I">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+                <li>Item Four</li>
+                <li>Item Five</li>
+            </ol>
+        </section>
+
+        <!-- External Image from Pexels.com -->
+        <section>
+            <h2>External Image</h2>
+            <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Sample Image from Pexels" width="600">
+        </section>
+
+        <!-- Table of Contacts -->
+        <section>
+            <h2>Contacts Table</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dan Cod</td>
+                        <td>223 Main St</td>
+                        <td>749-1997</td>
+                        <td>dan@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Nancy Smile</td>
+                        <td>789 Early Ave</td>
+                        <td>749-7503</td>
+                        <td>nancy@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Navy Hudson</td>
+                        <td>746 Oak St</td>
+                        <td>749-9866</td>
+                        <td>navy@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jace Liam</td>
+                        <td>413 Friut Ln</td>
+                        <td>372-1234</td>
+                        <td>jace@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jay Kenner</td>
+                        <td>765 Cypril St</td>
+                        <td>300-5632</td>
+                        <td>jay@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section>
+            <h2>Registration Form</h2>
+            <form action="/submit" method="post">
+                <!-- Name Field -->
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <!-- Email Field -->
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <!-- Password Field -->
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <!-- Date Field -->
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <!-- Dropdown -->
+                <div>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="kenya">Kenya</option>
+                        <option value="rwanda">Rwanda</option>
+                        <option value="usa">USA</option>
+                        <option value="asia">Asia</option>
+                    </select>
+                </div>
+
+                <!-- Radio Buttons -->
+                <div>
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <!-- Checkboxes -->
+                <div>
+                    <p>Hobbies:</p>
+                    <input type="checkbox" id="sports" name="hobbies" value="sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="music" name="hobbies" value="music">
+                    <label for="music">Music</label>
+                    <input type="checkbox" id="reading" name="hobbies" value="reading">
+                    <label for="reading">Reading</label>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Sample HTML5 Page</p>
+    </footer>
+</body>
+
+</html>
